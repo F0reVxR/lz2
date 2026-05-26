@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+.container{
+    width: 1296px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-links{
+    display: flex;
+    gap: 48px;
+}
