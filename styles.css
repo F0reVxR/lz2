@@ -8,8 +8,8 @@ header{
     background: #000000;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(11, 11, 16, 1) 37.5%, rgba(24, 24, 35, 1) 37.5%);
 }
-@media (1440px){
-    .container{
+
+.container{
     width: 1296px;
     display: flex;
     justify-content: center;
@@ -38,5 +38,53 @@ header a:hover, a:visited, a:active{
     padding: 32px 24px;
     background-color: #5221E6;
 }
+.more-button{
+    display: none;
 }
 
+@media (max-width:768px){
+    .container{
+        width: 688px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 157.57px;
+        color:white;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:360px){
+    .container{
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 217.57px;
+        color:white;
+        font-size: 16px;
+        padding: 24px 24px;
+    }
+    .header-links{
+        display: none;
+    }
+    .more-button{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .more-button img{
+        display: flex;
+        /* float: right; */
+    }
+}
