@@ -1,26 +1,23 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: 'Sen', sans-serif;
     font-size: 18px;
+    color: #FFFFFF;
 }
+/*----------------------<Header>----------------------*/
 header{
     background: #000000;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(11, 11, 16, 1) 37.5%, rgba(24, 24, 35, 1) 37.5%);
 }
-
 .container{
     width: 1296px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 .header-items{
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 741.57px;
-    color:white;
     font-size: 16px;
 }
 .header-links{
@@ -41,39 +38,24 @@ header a:hover, a:visited, a:active{
 .more-button{
     display: none;
 }
-
 @media (max-width:768px){
     .container{
         width: 688px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .header-items{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 157.57px;
-        color:white;
-        font-size: 16px;
+    }
+    header{
+        background: #000000;
     }
 }
-
 @media (max-width:360px){
     .container{
         width: 320px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .header-items{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 217.57px;
-        color:white;
-        font-size: 16px;
-        padding: 24px 24px;
+        padding: 24px 4px;
     }
     .header-links{
         display: none;
@@ -83,8 +65,256 @@ header a:hover, a:visited, a:active{
         flex-direction: column;
         gap: 5px;
     }
-    .more-button img{
+}
+/*----------------------<About_me>----------------------*/
+#About_me{
+    color: #FFFFFF;
+    padding-bottom: 83px;
+}
+#About_me img{
+    display: none;
+}
+h1{
+    font-size: 78px;
+    font-weight: bold;
+}
+h1 span{
+    font-size: 78px;
+    font-weight: bold;
+    color: darkgrey;
+}
+.about_me-text{
+    width: 738px;
+    gap: 60px;
+    margin-left: 662px;
+}
+.container_1440{
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+.container_start{
+    background: url(pics/header_pics/About_jew_small.jpg);
+    background-repeat: no-repeat;
+    background-size: 750px 650px;
+    margin-top: 80px;
+    padding-bottom: 84px;
+}
+.container_about{
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 141px;
+    margin-bottom: 141px;
+}
+@media (max-width:768px){
+    h1{
+        font-size: 56px;
+    }
+    h1 span{
+    font-size: 56px;
+    }
+    .about_me-text{
+        width: 408px;
+        gap: 32px;
+        margin-left: 320px;
+    }
+    .container_start{
+        width: 768px;
         display: flex;
-        /* float: right; */
+        background: url(pics/header_pics/About_jew.jpg);
+        background-repeat: no-repeat;
+        background-size: 384px 650px;
+
+        margin-top: 72px;
+        padding-bottom: 92px;
+    }
+    .container_about{
+        margin-top: 95px;
+        margin-bottom: 80px;
     }
 }
+@media (max-width:360px){
+    h1{
+        font-size: 32px;
+    }
+    h1 span{
+        font-size: 32px;
+    }
+    #About_me{
+        border-bottom: 3px dashed #ffffff;
+    }
+    #About_me img{
+        width: 360px;
+        height: 288px;
+        display: flex;
+    }
+    .about_me-text{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 48px 20px 0px 20px;
+    }
+    .container_start{
+        width: 360px;
+        background: none;
+
+        margin-top: 46px;
+        padding-bottom: 2px;
+    }
+    .container_about{
+        margin-top: 95px;
+        margin-bottom: 48px;
+        flex-direction: column;
+    }
+}
+/*----------------------</About_me>----------------------*/
+/*----------------------</Header>----------------------*/
+
+/*----------------------<Main>----------------------*/
+/*----------------------<Working Experience>----------------------*/
+main{
+    background-color: #000000;
+}
+h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.WE_all{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 144px;
+}
+.WE_head{
+    display: flex;
+    flex-direction: column;
+    width: 689px;
+}
+.WE_head span{
+    color: #DEECF9;
+    font-size: 16px;
+}
+.list{
+    display: flex;
+    margin-top: 40px;
+    gap: 24px;
+}
+.list h2{
+    font-size: 117px;
+    font-weight: 400;
+    color: #8491A0;
+}
+.column{
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+}
+.sp01 span{
+    color: #3CC74E;
+    font-size: 24px;
+    font-weight: bold;
+}
+.sp02 span{
+    color: #77AAFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+.sp03 span{
+    color: #E95D90;
+    font-size: 24px;
+    font-weight: bold;
+}
+.explanation{
+    width: 368px;
+    font-size: 16px;
+    color: #DEECF9;
+    margin-top: 22px;
+}
+@media (max-width:768px){
+    .WE_all{
+        padding-top: 80px;
+        padding-bottom: 104px;
+    }
+    .column{
+        width: 213px;
+    }
+    .specialist{
+        width: 134px;
+        line-height: 1.5;
+    }
+    .explanation{
+        width: 197px;
+        margin-top: 24px;
+    }
+}
+@media (max-width:360px){
+    .WE_all{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .WE_head{
+        width: 320px;
+    }
+    .list{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .specialist{
+        width: 320px;
+        line-height: 1.5;
+    }
+    .explanation{
+        width: 320px;
+        margin-top: 16px;
+    }
+}
+/*----------------------</Working Experience>----------------------*/
+
+/*----------------------<Philosophy&values>----------------------*/
+#Philosophy_values{
+    background-color: #FFF3E4;
+    display: flex;
+    flex-direction: row;
+}
+.PV{
+    width: 720px;
+    margin: 120px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.PV_head{
+    width: 529px;
+    color: #000000;
+}
+.PV_exp{
+    width: 576px;
+    color: #5B6876;
+}
+.ball{
+    background: url(pics/main_pics/ball.jpg);
+    background-repeat: no-repeat;
+    background-size: 720px 600px;
+}
+.PV a{
+    
+    margin-top: 110px;
+    color: #5B6876;
+    text-decoration: none;
+    border-bottom: 1px solid #5B6876;
+}
+.PV a:hover{
+    color: #E95D90;
+
+}
+
+/*----------------------</Philosophy&values>----------------------*/
+
+/*----------------------</Main>----------------------*/
