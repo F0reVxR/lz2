@@ -932,10 +932,135 @@ h3{
 /*----------------------<LGS>----------------------*/
 .LGS{
     margin-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: center;
     gap: 24px;
 }
+.LGS_head{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.LGS_head p{
+    width: 526px;
+    color: #8491A0;
+}
+textarea{
+    background-color: #181823;
+    color: #FFF3E4;
+    border: inherit;
+    resize: vertical;
+    overflow: auto;
+    width: 100%;
+}
+.form{
+    width: 526px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: stretch;
+}
+.inp2 textarea{
+    padding-bottom: 22px;
+}
+.LGS button{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5221E6;
+    width: 100%;
+    padding: 24px 174px;
+}
+@media (max-width:768px){
+    .LGS{
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+    .LGS_head p{
+        width: 332px;
+    }
+    .form{
+        width: 332px;
+    }
+    .inp2 textarea{
+        padding-bottom: 22px;
+    }
+    .LGS button{
+        padding: 24px 55px;
+    }
+}
+@media (max-width:360px){
+    .LGS{
+        margin-top: 48px;
+        padding-bottom: 48px;
+        flex-direction: column;
+        gap: 48px;
+        align-items: center;
+    }
+    .LGS_head p{
+        width: 320px;
+    }
+    .form{
+        width: 320px;
+    }
+    .inp2 textarea{
+        padding-bottom: 22px;
+    }
+    .LGS button{
+        padding: 24px 55px;
+    }
+}
 /*----------------------</LGS>----------------------*/
 
 /*----------------------</Main>----------------------*/
+
+/*----------------------<Footer>----------------------*/
+footer{
+    background-color: #181823;
+    padding-bottom: 80px;
+}
+.FTR{
+    padding-top: 80px;
+    padding-bottom: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo_links{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.f_links{
+    display: flex;
+    gap: 16px;
+}
+.f_cols{
+    display: flex;
+    gap: 24px;
+}
+.f_col{
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+footer p{
+    color: #8491A0;
+    display: flex;
+    justify-content: flex-start;
+}
+footer a{
+    text-decoration: none;
+}
+@media (max-width:786px){
+    footer{
+        padding-bottom: 56px;
+    }
+    .f_col{
+        width: 154px;
+    }
+    footer p{
+        width: 329px;
+    }
+}
+/*----------------------</Footer>----------------------*/
