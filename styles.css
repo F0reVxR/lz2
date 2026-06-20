@@ -49,7 +49,7 @@ header a{
 .more-button{
     display: none;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .container{
         width: 688px;
     }
@@ -120,7 +120,7 @@ h1 span{
     margin-top: 141px;
     margin-bottom: 141px;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     h1{
         font-size: 56px;
     }
@@ -247,7 +247,7 @@ h3{
     color: #DEECF9;
     margin-top: 22px;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .WE_all{
         padding-top: 80px;
         padding-bottom: 104px;
@@ -419,7 +419,7 @@ h3{
     margin-top: 24px;
     margin-bottom: 24px;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .Skill{
         flex-direction: column;
         margin-top: 80px;
@@ -473,7 +473,7 @@ h3{
 .hidden{
     display: none;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     #Project_anchors button{
         padding: 60px 146px;
     }
@@ -546,7 +546,7 @@ h3{
 .hid{
     display: none;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .MP{
         margin-top: 80px;
         padding-bottom: 80px;
@@ -717,7 +717,7 @@ h3{
     text-decoration: none;
     border-bottom: 1px solid #8491A0;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .DB{
         padding: 0;
         margin-top: 80px;
@@ -785,7 +785,7 @@ h3{
     line-height: 150%;
     color: #5B6876;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .Op{
         margin-top: 80px;
         padding-bottom: 80px;
@@ -891,7 +891,7 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .Ph{
         margin-top: 80px;
         padding-bottom: 80px;
@@ -978,7 +978,7 @@ textarea{
     width: 100%;
     padding: 24px 174px;
 }
-@media (max-width:768px){
+@media (min-width:360px) and (max-width:768px){
     .LGS{
         margin-top: 80px;
         padding-bottom: 80px;
@@ -1065,7 +1065,7 @@ footer a{
 footer a:hover, a:visited, a:active{
     color: #E95D90;
 }
-@media (max-width:786px){
+@media (min-width:360px) and (max-width:786px){
     footer{
         padding-bottom: 56px;
     }
